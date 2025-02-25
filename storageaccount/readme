@@ -1,0 +1,6 @@
+#creating storage account using ARM template
+This folder contains ARM template and powershell script to create a storage account
+
+storage-account.json : This template creates the storage account
+parameters.json : This file has inputs to create the storage account
+deploy-arm.ps1 : This file authenticate to the azure account, create resource group and use the json templates to deploy storage account via powershell.
