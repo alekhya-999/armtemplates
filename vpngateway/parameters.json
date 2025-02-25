@@ -1,0 +1,36 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "location": {
+            "value": "eastus"
+        },
+        "name": {
+            "value": "mygateway"
+        },
+        "gatewayType": {
+            "value": "Vpn"
+        },
+        "sku": {
+            "value": "VpnGw2AZ"
+        },
+        "vpnType": {
+            "value": "RouteBased"
+        },
+        "vpnGatewayGeneration": {
+            "value": "Generation2"
+        },
+        "subnetId": {
+            "value": "/subscriptions/d4416119-70be-48b5-b868-61c6eed8416d/resourceGroups/arm-rg/providers/Microsoft.Network/virtualNetworks/myvnet/subnets/GatewaySubnet"
+        },
+        "newPublicIpAddressName": {
+            "value": "mygatewayip1"
+        },
+        "activeActive": {
+            "value": true
+        },
+        "activeActiveGatewayNewPublicIpAddressName": {
+            "value": "mygatewayip2"
+        }
+    }
+}
