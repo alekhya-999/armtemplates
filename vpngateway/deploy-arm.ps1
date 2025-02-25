@@ -1,5 +1,5 @@
 #Authenticate to the azure portal
-connect-AzAccount -subscriptionid "d4416119-70be-48b5-b868-61c6eed8416d" -Tenantid "93f33571-550f-43cf-b09f-cd331338d086"
+connect-AzAccount -subscriptionid "" -Tenantid ""
 
 
 #create resource group
